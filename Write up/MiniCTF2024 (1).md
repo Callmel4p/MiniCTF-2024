@@ -11,7 +11,7 @@
 ### Challenge : Welcome
 (_100 pt, 50 solves, flag : miniCTF{ar3_u_re4dy???}_)
 
-![Welcome](/MiniCTF2024/Image/Welcome.png)
+![Welcome](Image/Welcome.png)
 
 ##### Solution 
 
