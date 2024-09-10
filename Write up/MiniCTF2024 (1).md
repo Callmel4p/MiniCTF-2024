@@ -18,7 +18,7 @@
 Follow the instruction
 
 Go to Discord -> Join Server -> #Reward -> get the flag 
-![Welcome flag](/MiniCTF2024/Image/Welcome_flag.png)
+![Welcome flag](MiniCTF2024/Image/Welcome_flag.png)
 
 
 ##### Comment 
