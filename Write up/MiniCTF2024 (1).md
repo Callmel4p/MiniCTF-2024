@@ -11,7 +11,7 @@
 ### Challenge : Welcome
 (_100 pt, 50 solves, flag : miniCTF{ar3_u_re4dy???}_)
 
-![Welcome](Image/Welcome.png)
+![Welcome]((https://github.com/Callmel4p/MiniCTF-2024/blob/main/Write%20up/Image/Welcome.png))
 
 ##### Solution 
 
