@@ -2,7 +2,7 @@
 -   Time: _September 4, 2024_
 -   Place: _Online_
 -   Website: _<https://minictf.infosecptit.club/>_
--   Author: _Bui Quoc Lap D24AT161 (l4pp)_
+-   Author: _Bui Quoc Lap B24DCAT161 (l4pp)_
 
 
 ## **Category : Welcome**
