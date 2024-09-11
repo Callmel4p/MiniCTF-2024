@@ -9,7 +9,7 @@
 
 
 ### **Challenge : Welcome**
-(_100 pt, 50 solves, flag : miniCTF{ar3_u_re4dy???}_)
+_(100 pt, 50 solves, flag : miniCTF{ar3_u_re4dy???})_
 
 ![Welcome](../Image/Welcome.png)
 
@@ -25,7 +25,7 @@ Follow the instruction. Go to Discord -> Join Server -> #Reward -> get the flag
 ## **Category : Warm up**
 
 ### **Challenge : Base32**
-(_100 pt, 68 solves, flag : miniCTF{Th1s_1s_just_b3g1nn1ng}_)
+_(100 pt, 68 solves, flag : miniCTF{Th1s_1s_just_b3g1nn1ng})_
 
 ![Base32](<../Image/Base32.png>)
 
@@ -41,7 +41,7 @@ Look at challenge name and the text, may be use Base32 decode will help. So I go
 #### _**Comment**_ 
 
 ### **Challenge : Flag in text** 
-(_100 pt, 63 solves, flag : miniCTF{y0u_f0und_th3_s3cr3t}_)
+_(100 pt, 63 solves, flag : miniCTF{y0u_f0und_th3_s3cr3t})_
 
 ![Flag in text](../Image/Flag_in_text.png)
 
@@ -55,7 +55,7 @@ Open the given file and try to find flag by flag format "miniCTF" and get the fl
 
 
 ### **Challenge : Hexadecimal**
-(_100 pt, 47 solves, flag : miniCTF{y0u_4r3_d0ing_gr34t}_)
+_(100 pt, 47 solves, flag : miniCTF{y0u_4r3_d0ing_gr34t})_
 
 ![Hexadecimal](../Image/Hexadecimal.png)
 
@@ -67,7 +67,7 @@ From challenge name and the given message, I try hex to text decode and get the 
 #### _**Comment**_
 
 ### **Challenge : Do exercise?**
-(_130 pt, 38 solves, flag : miniCTF{SEMAPHORE}_)
+_(130 pt, 38 solves, flag : miniCTF{SEMAPHORE})_
 
 ![Do exercise](../Image/Do_exercise.png)
 
@@ -83,7 +83,7 @@ Search google for the image, I know it is Semaphore flag. Google for Semaphore f
 
 
 ### **Challenge : Beginning RE**
-(_100pt, 59 solves, flag : miniCTF{R3vers3_1s_e4sy_h3r3_w3_g0}_) 
+_(100pt, 59 solves, flag : miniCTF{R3vers3_1s_e4sy_h3r3_w3_g0})_ 
 
 ![Beginning RE](../Image/Beginning_RE.png)
 
@@ -120,7 +120,7 @@ This is a cpp program with only main function run a if condition to check input 
 #### _**Comment**_
 
 ### **Challenge : Password**
-(_100 pt, 47 solves, flag : miniCTF{d4y_L4_kH0_l34u_cU4_Chl3c_Ru0n5_N4y}_)
+_(100 pt, 47 solves, flag : miniCTF{d4y_L4_kH0_l34u_cU4_Chl3c_Ru0n5_N4y})_
 
 ![Password](../Image/Password.png)
 
@@ -168,7 +168,7 @@ This mean the password is "738380". I open treasure.exe and enter the password a
 #### _**Comment**_
 
 ### **Challenge : Let him cook**
-(_200 pt, 31 solves, flag : miniCTF{T()i_Mu0n_@n_TH4t_nH!eu_thlT___})
+_(200 pt, 31 solves, flag : miniCTF{T()i_Mu0n_@n_TH4t_nH!eu_thlT___})
 
 ![Let him cook](../Image/Let_him_cook.png)
 
@@ -250,7 +250,7 @@ I don't know how other player are but I have to change some code in Let_him_cook
 
 
 ### **Challenge : LiqiMoblie**
-(_470pt, 3 Solves, I can't solve it in contest @@_)
+_(470pt, 3 Solves, I can't solve it in contest @@)_
 
 ![LiqiMoblie](../Image/LiqiMoblie.png)
 
@@ -266,7 +266,7 @@ Addtionally, when I first time run .exe file, I got the error missing "libstdc++
 ## **Category : Web**
 
 ### **Challenge : Treasureapart**
-(_100pt, 57 Solves, flag :miniCTF{tr34sur3_m4ps_4r3_hjdd3n_4p4rt}_)
+_(100pt, 57 Solves, flag :miniCTF{tr34sur3_m4ps_4r3_hjdd3n_4p4rt})_
 
 ![Treasureapart](../Image/Treasureapart.png)
 
@@ -283,7 +283,7 @@ Addtionally, I know the treasure is hidden in 3 places and the web tell me to in
 
 
 ### **Challenge : Source code**
-(_100pt, 60 Solves, flag : miniCTF{this_is_a_secret_flag}_)
+_(100pt, 60 Solves, flag : miniCTF{this_is_a_secret_flag})_
 
 ![Source code](../Image/Source_code.png)
 
@@ -296,7 +296,7 @@ Go to "Trang web của tôi" and view its source code and find out the flag
 #### _**Comment**_
 
 ### **Challenge : Hidden Flag**
-(_200pt, 30 solves, flag :miniCTF{N0w_u_c4n_see_m3_h3h3h3}_)
+_(200pt, 30 solves, flag :miniCTF{N0w_u_c4n_see_m3_h3h3h3})_
 
 ![Hidden Flag](../Image/Hidden_Flag.png)
 
@@ -329,7 +329,7 @@ On this challenge, I had to use hint. I don't know why but when I found 2 commen
 
 
 ### **Challenge : Check the source**
-(_320 pt, 18 solves, flag : miniCTF{L0c4l_st0r4g3_byp4ss}_)
+_(320 pt, 18 solves, flag : miniCTF{L0c4l_st0r4g3_byp4ss})_
 
 ![Check the source](../Image/Check_the_source.png)
 
@@ -353,7 +353,7 @@ From the decoded JS code, I understood how the web work. It will check userRole 
 ## **Category : Crypto**
 
 ### **Challenge : Thousand Sunny**
-(_110 pt, 40 solves, flag:miniCTF{g0_2_n3xt_ch4lleng3}_)
+_(110 pt, 40 solves, flag:miniCTF{g0_2_n3xt_ch4lleng3})_
 
 ![Thousand Sunny](../Image/Thousand_Sunny.png)
 
@@ -369,7 +369,7 @@ With using Base32 decode, I found the final result, which is the flag
 #### _**Comment**_
 
 ### **Challenge : coban**
-(_130 pt, 38 solves, flag : miniCTF{!_l0v3_cryp10_f0r3v3r}_)
+_(130 pt, 38 solves, flag : miniCTF{!_l0v3_cryp10_f0r3v3r})_
 
 ![coban](../Image/coban.png)
 
@@ -382,7 +382,7 @@ With the name "sixtifor" (64). I thought the message was Base64 decoded. But wit
 To solve this challenge, I have to say thank so much for the ISP CLUB Seminar before the Contest , although I had known after decode before but it was the first time I know about multipletimes decoding, it seem to be easy method but I still feel it is amazing.
 
 ### **Challenge : APLHABEZ**
-(_190pt, 32 solves, flag : miniCTF{4lpk4b3t_3V0LU710N_(@@)}_)
+_(190pt, 32 solves, flag : miniCTF{4lpk4b3t_3V0LU710N_(@@)})
 
 ![APLHABEZ](../Image/APLHABEZ.png)
 
@@ -401,7 +401,7 @@ The sentences "Lorem ipsum dolar sit amet" seem to be meaningless but after sear
 
 ### **Challenge : RSAA**
 
-(_270 pt, 24 solves, flag: miniCTF{f3rm47_w45_4_g3n1u5}_)
+_(270 pt, 24 solves, flag: miniCTF{f3rm47_w45_4_g3n1u5})_
 
 ![RSAA](../Image/RSAA.png)
 
@@ -418,7 +418,7 @@ Honestly, I still don't understand what source.py does. It seem to be work as a 
 
 ### **Challenge : Mirror Cipher**
 
-(_390pt, 12 solves, flag : miniCTF{Y0u_h4v3_d1sc0v3r3d_Am3r1ca!!!}_)
+_(390pt, 12 solves, flag : miniCTF{Y0u_h4v3_d1sc0v3r3d_Am3r1ca!!!})_
 
 ![Mirror Cipher](../Image/Mirror_Cipher.png)
 
@@ -443,7 +443,7 @@ One more times in category crypto, I think I am not on the right track. When I t
 
 ### **Challenge : kho báu**
 
-(_170 pt, 34 solves, flag: miniCTF{hop_kho_bau_tri_thuc}_)
+_(170 pt, 34 solves, flag: miniCTF{hop_kho_bau_tri_thuc})_
 
 ![kho báu](../Image/kho_bau.png)
 
@@ -457,7 +457,7 @@ The description say that .exe is not the correct file type. So I tried to change
 
 ### **Challenge : Hidden_**
 
-(_230 pt,28 solves, flag : miniCTF{hjdd3n_t3xt_und3rn34th}_)
+_(230 pt,28 solves, flag : miniCTF{hjdd3n_t3xt_und3rn34th})_
 
 ![Hidden_](../Image/Hidden.png)
 
@@ -475,7 +475,7 @@ For the first time, I don't realize comment command so my found flag was not com
 
 ### **Challenge : Exif**
 
-(_280 pt, 23 solves, flag: miniCTF{G00d_game_w3ll_play3r}_)
+_(280 pt, 23 solves, flag: miniCTF{G00d_game_w3ll_play3r})_
 
 ![Exif](../Image/Exif.png)
 
@@ -495,7 +495,7 @@ After the contest, I realized that I don't even need exiftool, just command "fil
 
 ### **Challenge : Sunset**
 
-(_300pt, 21 solves, flag : miniCTF{I_LOVE_PTIT}_)
+_(300pt, 21 solves, flag : miniCTF{I_LOVE_PTIT})_
 
 ![Sunset](../Image/Sunset.png)
 
@@ -513,7 +513,7 @@ Only after having solved the challenge did I understand the description, it reco
 
 ### **Challenge : Find me**
 
-(_250 pt, 26 solves, flag : miniCTF{WHY_Y0U_C4N_D0_TH4T__??})
+_(250 pt, 26 solves, flag : miniCTF{WHY_Y0U_C4N_D0_TH4T__??})
 
 ![Find me](../Image/Find_me.png)
 
