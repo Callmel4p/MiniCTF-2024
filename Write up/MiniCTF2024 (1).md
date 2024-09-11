@@ -243,8 +243,8 @@ After testing, I know that my guess about how the program work  is correct and t
 
 
 #### _**Comment**_ 
-I don't know how other player are but I have to change some code in Let_him_cook.cpp to run in my computer
-- Change bits/stdc++.h into iostream. I know the reason is my computer doesn't have library bits/stdc++.h
+I don't know how other players are but I have to change some code in Let_him_cook.cpp to run in my computer
+- Change `bits/stdc++.h` to `iostream`. I know the reason is my computer doesn't have library bits/stdc++.h
 - Add `return 0` to funtion guess_what. I have to do that because a warning:  `Let_him_cook.cpp:45:1: warning: no return statement in function returning non-void [-Wreturn-type]`
 
 Does that mean changing given code is a part of challenge ?
