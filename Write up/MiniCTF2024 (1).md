@@ -1,4 +1,4 @@
-# **MiniCTF2024 Write up**
+# **MiniCTF2024 Write-up**
 -   Time: _September 4, 2024_
 -   Place: _Online_
 -   Website: _<https://minictf.infosecptit.club/>_
