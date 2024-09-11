@@ -13,11 +13,10 @@
 
 ![Welcome](../Image/Welcome.png)
 
-##### Solution 
+#### Solution 
 
-Follow the instruction
+Follow the instruction. Go to Discord -> Join Server -> #Reward -> get the flag 
 
-Go to Discord -> Join Server -> #Reward -> get the flag 
 ![Welcome flag](../Image/Welcome_flag.png)
 
 
@@ -27,11 +26,14 @@ Go to Discord -> Join Server -> #Reward -> get the flag
 
 ### Challenge : Base32
 (_100 pt, 68 solves, flag : miniCTF{Th1s_1s_just_b3g1nn1ng}_)
+
 ![Base32](<../Image/Base32.png>)
 
 ##### Solution
 
-Look at challenge name and the text, may be use Base32 decode will help. So I go to *[Cryptii](https://cryptii.com/pipes/base32)* to decode message and get the flag  : ![Base 32 flag](../Image/Base32_flag.png)
+Look at challenge name and the text, may be use Base32 decode will help. So I go to *[Cryptii](https://cryptii.com/pipes/base32)* to decode message and get the flag  : 
+
+![Base 32 flag](../Image/Base32_flag.png)
 
 
 
@@ -41,11 +43,13 @@ Look at challenge name and the text, may be use Base32 decode will help. So I go
 ### Challenge : Flag in text 
 (_100 pt, 63 solves, flag : miniCTF{y0u_f0und_th3_s3cr3t}_)
 
-![Flag in text](<../Image/Flag_in_text.png>)
+![Flag in text](../Image/Flag_in_text.png)
 
 
 ##### Solution
-Open the given file and try to find flag by flag format "miniCTF" and get the flag ![Flag in text flag](../Image/Flag_in_text_flag.png)
+Open the given file and try to find flag by flag format "miniCTF" and get the flag 
+
+![Flag in text flag](../Image/Flag_in_text_flag.png)
 
 ##### Comment
 
@@ -56,7 +60,9 @@ Open the given file and try to find flag by flag format "miniCTF" and get the fl
 ![Hexadecimal](../Image/Hexadecimal.png)
 
 ##### Solution
-From challenge name and the given message, I try hex to text decode and get the flag ![Hexadecimal flag](../Image/Hexadecimal_flag.png)
+From challenge name and the given message, I try hex to text decode and get the flag 
+
+![Hexadecimal flag](../Image/Hexadecimal_flag.png)
 
 ##### Comment
 
@@ -66,7 +72,9 @@ From challenge name and the given message, I try hex to text decode and get the 
 ![Do exercise](../Image/Do_exercise.png)
 
 ##### Solution 
-Search google for the image, I know it is Semaphore flag. Google for Semaphore flags alphabet and translate the image to get the flag ![Do_exercise_alphabet](../Image/Do_exersice_alphabet.png)
+Search google for the image, I know it is Semaphore flag. Google for Semaphore flags alphabet and translate the image to get the flag 
+
+![Do_exercise_alphabet](../Image/Do_exercise_alphabet.jpg)
 
 ##### Comment
 
@@ -77,7 +85,7 @@ Search google for the image, I know it is Semaphore flag. Google for Semaphore f
 ### Challenge : Beginning RE
 (_100pt, 59 solves, flag : miniCTF{R3vers3_1s_e4sy_h3r3_w3_g0}_) 
 
-![Begining RE](../Image/Beginning_RE.png)
+![Beginning RE](../Image/Beginning_RE.png)
 
 ##### Solution
 
@@ -94,34 +102,8 @@ int main() {
         flag[1] == 'i' &&
         flag[10] == 'v' &&
         flag[12] == 'r' &&
-        flag[32] == 'g' &&
-        flag[14] == '3' &&
-        flag[16] == '1' &&
-        flag[22] == 'y' &&
-        flag[31] == '_' &&
-        flag[17] == 's' &&
-        flag[9] == '3' &&
-        flag[15] == '_' &&
-        flag[33] == '0' &&
-        flag[11] == 'e' &&
-        flag[8] == 'R' &&
-        flag[34] == '}' &&
-        flag[27] == '3' &&
-        flag[24] == 'h' &&
-        flag[21] == 's' &&
-        flag[0] == 'm' &&
-        flag[29] == 'w' &&
-        flag[4] == 'C' &&
-        flag[3] == 'i' &&
-        flag[23] == '_' &&
-        flag[30] == '3' &&
-        flag[19] == 'e' &&
-        flag[13] == 's' &&
-        flag[2] == 'n' &&
-        flag[7] == '{' &&
-        flag[28] == '_' &&
-        flag[20] == '4' &&
-        flag[18] == '_' &&
+        ...
+        ...
         flag[6] == 'F' &&
         flag[5] == 'T' &&
         flag[25] == '3' &&
@@ -133,7 +115,7 @@ int main() {
         cout << "Incorrect! Try again!!";
 }
 ````
-This is a cpp program with only main function run a if condition to check input string "flag" is expected answer or not. From the source code, I know that expected answer the string "miniCTF{R3vers3_1s_e4sy_h3r3_w3_g0}". That also the flag   
+This is a cpp program with only main function run a if condition to check input string "flag" is expected answer or not. From the source code, I know that expected answer the string "miniCTF{R3vers3_1s_e4sy_h3r3_w3_g0}". That's also our flag.   
 
 ##### Comment
 
@@ -143,7 +125,7 @@ This is a cpp program with only main function run a if condition to check input 
 ![Password](../Image/Password.png)
 
 ##### Solution
-Download password.zip and extract, get 2 file : chall2.py and treasure.exe. Since they say treasure.exe is made from chall2.py so I read the chall2.py source code first. Here it is:
+Download password.zip and extract, get 2 file : chall2.py and treasure.exe. Since they say treasure.exe is made from chall2.py so I read the chall2.py source code first. The code is below : 
 
 ````
 import time
@@ -175,11 +157,13 @@ flag.close()
 input("\nẤn Enter để thoát!")
 
 ````
-From the source code, I know password (aka input) must have len == 6 and 6 digits should be ord value of string "ISP" oredered. So I creat a test.py to check ord value of "I", "S", "P"
+From the source code, I know password (aka input) must have lenght is 6 and 6 digits should be ord value of string "ISP" in order. So I creat a test.py to check ord value of "I", "S", "P"
 
 ![Password pic 1](../Image/Password_pic_1.png)
 
-This mean the password is "738380". I open treasure.exe and enter the password and get the flag ![Password flag](../Image/Password_flag.png)
+This mean the password is "738380". I open treasure.exe and enter the password and get the flag 
+
+![Password flag](../Image/Password_flag.png)
 
 ##### Comment
 
@@ -198,28 +182,11 @@ using namespace std;
 int Mmm = 0;
 string Flag = "Z./oeS{6teFteZN:zetN'k{eznrZeee"; 
 void print_Flag(string encryptedText, int key){
-	string result = ""; 
-	for (char c : encryptedText) {
-        int charCode = int(c);
-        charCode = charCode - (key % 10);
-        result += char(charCode);
-    }
-    cout <<  "miniCTF{" << result << "}";
+	...
 }
 
 void the_truth(ll &n){
-	cout << "I'll show you the truth!\n54 68 65 20 6B 65 79 20 69 73 20 61 20 70 65 72 66 65 63 74 20 6E 75 6D 62 65 72 20 6C 65 73 73 20 74 68 61 6E 20 31 36 20 62 69 74 73 2E \nConvert to text. It may help you!";
-	cout << "\nYou can take a hint!"; // hint decypt tu hex sang text
-	cout << "Do you want to know more? \n1. Yes  2. No" << endl;
-	int t; cin >> t;
-	if(t==1){
-		cout << "Time Nam :)))";
-		n = 0;
-	} else if(t == 2){
-		cout << "Choose the number 2 and the Flag is your!";
-		n = 0;
-	}
-	Mmm++; 
+	...
 }
 
 int unlock(){
@@ -227,25 +194,11 @@ int unlock(){
 }
 
 int guess_what(ll &n){
-	cout << "You are wrong! Try again? \n1. Yes  2. No  3. Hmmmm\n";
-	int t; cin >> t;
-	if(t == 1){
-		guess_what(n);
-	} else if(t == 2){
-		n = 0;
-	} else if(t == 3){
-		the_truth(n);
-	}
+	...
 } 
 
 void Something_wrong(ll &n){
-	cout << "Enter the password to get the Flag: ";
-	ll key;
-	cin >> key;
-	print_Flag (Flag, key);
-	if (Mmm != 0){
-		cout << "Try again! Please read the information in option 3 carefully.";
-	}
+	...
 }
 void input(){
 	cout << "Choose your number: 1 2 3" << endl;
@@ -276,15 +229,17 @@ int main(){
 	return 0;
 } 
 ````
-After reading, I understand that firstly, I can choose one of three number 1,2,3, any other number will lead to "Invalid Value"
+After reading, I understand that firstly, I can choose one of three number 1,2,3, any other numbers or characters will lead to "Invalid Value"
 - If I choose 1,the program will say to me that I'm wrong. Here I am asked to try again
-- - If I choose 1.Yes, I will choose again from beginging
-- - If I choose 2. No, the program will be exit
-- - But if I choose 3. Hmmm, the program will give me a hint, which is a hexa code for me to convert to text and get the hint is "The key is a perfect number less than 16 bits.". After  that, the program asks me for more hint but it's joke, choose "YES" and you will be "Time Nam". But if you choose "no" for more hint option, you will know that from the first, you should choose 2 
+  - If I choose 1.Yes, I will choose again from beginging
+  - If I choose 2. No, the program will be exit
+  - But if I choose 3. Hmmm, the program will give me a hint, which is a hexa code for me to convert to text `"I'll show you the truth!\n54 68 65 20 6B 65 79 20 69 73 20 61 20 70 65 72 66 65 63 74 20 6E 75 6D 62 65 72 20 6C 65 73 73 20 74 68 61 6E 20 31 36 20 62 69 74 73 2E \nConvert to text. It may help you!"` and get the hint is "The key is a perfect number less than 16 bits.". After  that, the program asks me for more hint but it's joke, choose "YES" and you will be "Time Nam". But if you choose "no" for more hint option, you will know that from the first, you should choose 2 
 - If I choose 2, the program will ask for key to get the flag. It's time for our hint become useful. The "perfect number" is 6, 28 496, 8128,... I don't understand what "less than 16 bits" mean so I think I will try each number. If you enter wrong key, the program will recommend you to pick the option 3.
 - If I choose 3, the hint will be showed. You can know that after choose the wrong key in option 2.
 
-After testing, I know that my guess about how the program work  is correct and the perfect number I need is "6". now I just have to choose as below to get the flag: ![Let him cook flag](../Image/Let_him_cook_flag.png)
+After testing, I know that my guess about how the program work  is correct and the perfect number I need is "6". now I just have to choose as below to get the flag: 
+
+![Let him cook flag](../Image/Let_him_cook_flag.png)
 
 
 ##### Comment 
@@ -303,7 +258,7 @@ I don't know how other player are but I have to change some code in Let_him_cook
 Because this is RE, I think about a tool let me read source code from LiqiMoblie.exe. But after try Ghidra, I know that even decoded code from Machine Code still unreadable for me. I gave up : (
 
 ##### Comment
-Thank to this challenge that I know I can read a source code from .exe file even the code is pretty hard-to-understand :> 
+Thank to this challenge that I know I can read a source code from .exe file even the code is pretty hard-to-understand.
 
 Addtionally, when I first time run .exe file, I got the error missing "libstdc++.dll", therefore, after the challenge, I know a new fact that there are 2 types of library(static and dynamic). Although I don't really understand what they are but I feel admired this challenge for helping me expand my horizon
 
@@ -320,7 +275,9 @@ Go to the given link, I found a website. After reading source code of it. I foun
 
 ![Treasureapart pic 1](../Image/Treasureapart_pic_1.png)
 
-Addtionally, I know the treasure is hidden in 3 places and the web tell me to inspect HTML, CSS, JS. Go to Dev Tool mode and found script.js and style.css, both of them contain parts of flag. Now I just have to wrap all of part and get the flag. ![Treasureapart pic 2](../Image/Treasureapart_pic_2.png)
+Addtionally, I know the treasure is hidden in 3 places and the web tell me to inspect HTML, CSS, JS. Go to Dev Tool mode and found script.js and style.css, both of them contain parts of flag. Now I just have to wrap all of part and get the flag. 
+
+![Treasureapart pic 2](../Image/Treasureapart_pic_2.png)
 
 ##### Comment
 
@@ -332,7 +289,9 @@ Addtionally, I know the treasure is hidden in 3 places and the web tell me to in
 
 ##### Solution
 
-Go to "Trang web của tôi" and view its source code and find out the flag ![Source code flag](../Image/Source_code_flag.png)
+Go to "Trang web của tôi" and view its source code and find out the flag 
+
+![Source code flag](../Image/Source_code_flag.png)
 
 ##### Comment
 
@@ -345,20 +304,23 @@ Go to "Trang web của tôi" and view its source code and find out the flag ![So
 
 Go to the given link and view source code. I know that I can go to other website.
 - Go to [A yellow page](http://103.70.115.44:1234/web.html?) when submit the input
-- Go to http://103.70.115.44:1234/forgotpass.html when click on ForgotPass option
-- Go to http://103.70.115.44:1234/register.html when click on Register option
+- Go to [Forgot Pass page](http://103.70.115.44:1234/forgotpass.html) when click on ForgotPass option
+- Go to [Register page](http://103.70.115.44:1234/register.html) when click on Register option
 
 ![Hidden Flag pic 1](../Image/Hidden_flag_pic_1.png)
 
 On the Yellow page's source, I found a part of flag
+
 ![Hidden Flag pic 2](../Image/Hidden_flag_pic_2.png)
 
 On the CSS file of ForgotPass page, I found a comment `
 /* 2340510522183513221474498965418877 */`. With the hint "try int". I search about how people encode message into nubmer and know the method from the [this link](https://www.claritician.com/how-to-encode-a-string-of-text-into-a-number-and-then-back-in-javascript) : text -> ascii char -> hexa code -> decimal code. So i try the oppsite to decode the comment and got a part of flag
+
 ![Hidden Flag pic 3](../Image/Hidden_flag_pic_3.png)
 
 On the CSS file of Register page, I found a comment `/* OVPWGNDOL4====== */`. Use the hint base32, I decode this comment to get the final part of flag.
-![Hidden Flag pic 4](../Image/Hidden_flag_pic4.png)
+
+![Hidden Flag pic 4](../Image/Hidden_flag_pic_4.png)
 
 Now just wrap three parts to get the final flag !
 
@@ -373,11 +335,15 @@ On this challenge, I had to use hint. I don't know why but when I found 2 commen
 
 ##### Solution
 When I go to the given link, the only action I can do is click "OK" on the alert which show me a flag but it is not the correct flag and be redirected to a youtube link. So I decide to not click and see the source to know more about the web. From line 14 to 20, there are 3 href so I try to go to these web but still the alert with "OK" button which lead me to the same youtube link. Here I can see another flag but it is not the correct flag again. But in the end of page source, I fond script.js which I think it is the reason of the alert. After that, I try to creat a test .html file with the source code is copied from the given link but not include the script.js and the alert was not araised. So I thought the next thing I need to look at is the script.js.
+
 ![Check the source pic 1](../Image/Check_the_source_pic_1.png)
 
-For the first time, I thought it was a lot of meaningless chars. But when Google search , I found out that this is JSFuck, a encoded version of JavaScript. So I tried to decode it back to the JS to understand what it does. ![Check the source pic 2](../Image/Check_the_source_pic_2.png)
+For the first time, I thought it was a lot of meaningless chars. But when Google search , I found out that this is JSFuck, a encoded version of JavaScript. So I tried to decode it back to the JS to understand what it does. 
+
+![Check the source pic 2](../Image/Check_the_source_pic_2.png)
 
 Here is the decoded code. I found another alert and tried to submit it, and wow this is the correct flag.
+
 ![Check the source flag](../Image/Check_the_source_flag.png)
 
 ##### Comment
@@ -393,9 +359,11 @@ From the decoded JS code, I understood how the web work. It will check userRole 
 
 ##### Solution
 When open file.txt, I saw a lot of "0" and "1" char so I thought it was a binary decoded data and tried to transfer it into text but it was not. After that, I use Cipher Identifier Tool and realize it was a Ascii Decoded message. When decode the original message, I found a result which makes sense more than other unreadable results and then I try to identify the special one (the first result in picture) to decode it one more times.
+
 ![Thousand Sunny pic 1](../Image/Thousand_Sunny_pic_1.png)
 
 With using Base32 decode, I found the final result, which is the flag
+
 ![Thousand Sunny Flag](../Image/Thousand_Sunny_flag.png)
 
 ##### Comment
@@ -407,10 +375,11 @@ With using Base32 decode, I found the final result, which is the flag
 
 ##### Solution
 With the name "sixtifor" (64). I thought the message was Base64 decoded. But with first try, the decoded message still unclear but I realized it was shorter than before so I thought I was on the right track. After many times decode the decoded message and got the shorter message, finally I got the flag.
+
 ![coban  flag](../Image/coban_flag.png)
 
 ##### Comment
-To solve this challenge, I have to say thank so much for the ISP CLUB Seminar before the Contest , although I had known after decode before but it was the first time I know about multipletimes decoding, it seem to be easy method but I still feel it is amazing :>
+To solve this challenge, I have to say thank so much for the ISP CLUB Seminar before the Contest , although I had known after decode before but it was the first time I know about multipletimes decoding, it seem to be easy method but I still feel it is amazing.
 
 ### Challenge : APLHABEZ
 (_190pt, 32 solves, flag : miniCTF{4lpk4b3t_3V0LU710N_(@@)}_)
@@ -419,9 +388,12 @@ To solve this challenge, I have to say thank so much for the ISP CLUB Seminar be
 
 ##### Solution
 First, I try to use Cipher Identify Tool for the given text. Some common method was tried but nothing was meaningful so I thought I need to be more specific.
+
 ![APLHABEZ pic 1](../Image/APLHABEZ_pic_1.png)
 
-With the description, I searched google for "cipher text with key". I fought that Ceasar Cipher have a improved version, Keyed Ceasar Cipher, which is a form of monoaplphabetic substituion cipher. With provided key "ISPCLUBVTGNHWYJRXODQEZKMAF" and [Keyed Ceasar Cipher Decode Tool](https://www.boxentriq.com/code-breaking/keyed-caesar-cipher) I fought the flag ![APLHABEZ flag](../Image/APLHABEZ_flag.png)
+With the description, I searched google for "cipher text with key". I fought that Ceasar Cipher have a improved version, Keyed Ceasar Cipher, which is a form of monoaplphabetic substituion cipher. With provided key "ISPCLUBVTGNHWYJRXODQEZKMAF" and [Keyed Ceasar Cipher Decode Tool](https://www.boxentriq.com/code-breaking/keyed-caesar-cipher) I fought the flag 
+
+![APLHABEZ flag](../Image/APLHABEZ_flag.png)
 
 ##### Comment
 The sentences "Lorem ipsum dolar sit amet" seem to be meaningless but after searching about it, I figured that it is a Latin sentences which mean "the pain of an average man." and it is a common placeholder in web development.
@@ -436,6 +408,7 @@ The sentences "Lorem ipsum dolar sit amet" seem to be meaningless but after sear
 ##### Solution
 
 Open source.py and see just print() and a calculate function which i don't really understand what it does. On the other hand, output.txt just 3 very big number called "n,c,e". But when I searched for "RSAA" and knew about RSA cryptosystem, I thought I know what to do with these big number. With [RSA Decode Tool](https://www.dcode.fr/rsa-cipher) I got the flag 
+
 ![RSAA flag](../Image/RSAA_flag.png)
 
 ##### Comment
@@ -452,9 +425,12 @@ Honestly, I still don't understand what source.py does. It seem to be work as a 
 ##### Solution
 
 When you enter the given message in giaido.exe in goiy.exe, you receive a string which I guess that it is hexa code. 
+
 ![Mirror Cipher pic 1](../Image/Mirror_Cipher_pic_1.png)
 
-So I used [Hex to Text tool](https://www.rapidtables.com/convert/number/hex-to-ascii.html) and got the missing piece of flag ![Mirror Cipher flag](../Image/Mirror_Cipher_flag.png)
+So I used [Hex to Text tool](https://www.rapidtables.com/convert/number/hex-to-ascii.html) and got the missing piece of flag 
+
+![Mirror Cipher flag](../Image/Mirror_Cipher_flag.png)
 
 ##### Comment
 One more times in category crypto, I think I am not on the right track. When I try "abc" in goiy.exe, it turn out "7a7879" which mean "zxy" if you convert from hex to text. And "xyz" input give you "636261" == "cba" . Plus the name "Mirror Cipher". At playing time, I don't have much time to care about this challenge and its problem after get the flag. But after the contest, I think about the method used:
@@ -473,7 +449,8 @@ One more times in category crypto, I think I am not on the right track. When I t
 
 ##### Solution
 The description say that .exe is not the correct file type. So I tried to change it to some file type I know .jpg, .jpeg, .txt,... and I got the flag with .jpg 
-![kho báu flag](kho_bau_flag.jpg)
+
+![kho báu flag](../Image/kho_bau_flag.jpg)
 
 ##### Comment
 
@@ -487,6 +464,7 @@ The description say that .exe is not the correct file type. So I tried to change
 ##### Solution
 
 Open hiddentext.svg, I saw "Flag :" but there was nothing left. After searching about .svg file, I knew it is a kind of image file and can be opened at Browser. So I opened it by Microsoft Edge and inspected its source code. 
+
 ![Hidden flag](../Image/Hidden_flag.png)
 
 Below a lot of number to draw ISP Club logo as vectors is single strings with different size. Some strings are hidden by comment command `<--` `-->` so if you edit it as HTML, remove comment command, it would be easier to read like this picture. Now I understood why I just see "flag" because others string are too small. But with source code, I could see exactly what these strings are and when wrapped all together, I got the flag.
@@ -503,11 +481,15 @@ For the first time, I don't realize comment command so my found flag was not com
 
 ##### Solution
 
-Open ggwp.jpg just give me a normal picture. But the challenge name "Exif" remind me of ExifTool, so I checked the picture with Exiftool and found the flag even in 2 place Document Name and Comment ![Exif flag](../Image/Exif_flag.png)
+Open ggwp.jpg just give me a normal picture. But the challenge name "Exif" remind me of ExifTool, so I checked the picture with Exiftool and found the flag even in 2 place Document Name and Comment 
+
+![Exif flag](../Image/Exif_flag.png)
 
 ##### Comment
 
-After the contest, I realized that I don't even need exiftool, just command "file" in linux also give me the the information contain flag.So, I think next time when do forensics challenge, I always need to check the what the file is first. ![Exif comment](../Image/Exif_comment.png)
+After the contest, I realized that I don't even need exiftool, just command "file" in linux also give me the the information contain flag.So, I think next time when do forensics challenge, I always need to check the what the file is first. 
+
+![Exif comment](../Image/Exif_comment.png)
 
 
 
@@ -519,7 +501,9 @@ After the contest, I realized that I don't even need exiftool, just command "fil
 
 ##### Solution
 
-With the image sunset.jpg, I tried file and exiftool to check first but there was nothing. After that, I feel stuck because I have no idea with a image when my tool are not useful. So I google for Forensics Image Write-up to see how proplayer deal with image file and found binwalk tool in first example of [this write up](https://noob-atbash.github.io/CTF-writeups/csictf-20/forensics/for.html). I did the same with my image and the result was good, I also found a RAR file in sunset.jpg too. When unrar the RAR file, I found sun2.jpg and I knew I have to see what inside of it as I did with original image. Finally, I found flag.txt and just need to open it to get the flag ![Sunset flag](../Image/Sunset_flag.png)
+With the image sunset.jpg, I tried file and exiftool to check first but there was nothing. After that, I feel stuck because I have no idea with a image when my tool are not useful. So I google for Forensics Image Write-up to see how proplayer deal with image file and found binwalk tool in first example of [this write up](https://noob-atbash.github.io/CTF-writeups/csictf-20/forensics/for.html). I did the same with my image and the result was good, I also found a RAR file in sunset.jpg too. When unrar the RAR file, I found sun2.jpg and I knew I have to see what inside of it as I did with original image. Finally, I found flag.txt and just need to open it to get the flag 
+
+![Sunset flag](../Image/Sunset_flag.png)
 
 ##### Comment 
 Only after having solved the challenge did I understand the description, it recommended me to find out inside of inside of inside the given file to reach the final result, the flag.
@@ -529,13 +513,15 @@ Only after having solved the challenge did I understand the description, it reco
 
 ### Challenge : Find me
 
-(_250 pt, 26 solves, flag : _)
+(_250 pt, 26 solves, flag : miniCTF{WHY_Y0U_C4N_D0_TH4T__??})
 
 ![Find me](../Image/Find_me.png)
 
 ##### Solution
 
-After download findme.zip and extract it. I see some .xml files. I decided to open and read these .xml files to find is there something special. At document.xml. I found some understandalbe string, therefore, I tried to find the flag by its format and got the flag ![Find me flag](../Image/Find_me_flag.png)
+After download findme.zip and extract it. I see some .xml files. I decided to open and read these .xml files to find is there something special. At document.xml. I found some understandalbe string, therefore, I tried to find the flag by its format and got the flag
+
+ ![Find me flag](../Image/Find_me_flag.png)
 
 ##### Comment
-I wonder if the harder challenge have 1 millions .xml or 1 billions .xml file so how can I find out the flag if just read all of them like the way I did with this challenge. May be this question will be answered in the future because this is the only challenge I can solve in Miscellaneous category :<
+I wonder if the harder challenge have 1 millions .xml or 1 billions .xml file so how can I find out the flag if just read all of them like the way I did with this challenge. May be this question will be answered in the future because this is the only challenge I can solve in Miscellaneous category.
